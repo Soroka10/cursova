@@ -1,7 +1,6 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 
 html {
@@ -23,8 +22,7 @@ body{
 
 header {
 	background-color: #1F2427FF;
-	color: white;
-	position: relative;	
+	color: white;	
 }
 
 header a {
@@ -80,7 +78,6 @@ nav div span:nth-child(2) i{
 .logo-image {
 	background-image: url(../img/girls.png);
 	background-size: cover;
-	background-repeat: no-repeat;
 	padding-top: 10%;
 	padding-left: 5%;
 	padding-bottom: 20%;
@@ -112,7 +109,7 @@ nav div span:nth-child(2) i{
 	margin-top: -30px;
 	display: flex;
 	flex-direction: column;
-	z-index: 1;
+
 	background-color: #F8F8F8FF;
 }
 
@@ -249,7 +246,7 @@ footer h1 {
 
 .map {
 	width: 90%;
-	box-sizing: content-box;
+	
 	margin: 20px auto;
 }
 
